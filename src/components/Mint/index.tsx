@@ -55,7 +55,7 @@ const Mint = ({ accounts }: { accounts: any[] }) => {
         humans from destructive rampant NFT <br />
         Speculation ? Mint SkeletonPunk to find out.
       </p>
-      {isConnected && (
+      {isConnected ? (
         <>
           <div className="flex text-xl items-center">
             <button
@@ -89,6 +89,10 @@ const Mint = ({ accounts }: { accounts: any[] }) => {
           {isLoading && <h2 className="text-2xl font-medium">Loading...</h2>}
           {isMinted && <h2 className="text-2xl font-medium">NFT Minted</h2>}
         </>
+      ) : (
+        <div className="text-xl items-center text-amber-500">
+          You'll Need to connect your Metamask wallet first
+        </div>
       )}
     </div>
   )

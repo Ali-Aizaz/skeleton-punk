@@ -37,7 +37,12 @@ const Navbar = ({
         {isConnected ? (
           <li>Connected</li>
         ) : (
-          <li onClick={connectAccount}>Connect</li>
+          <li
+            className="cursor-pointer text-amber-300 font-bold"
+            onClick={connectAccount}
+          >
+            Connect
+          </li>
         )}
       </ul>
     </nav>
