@@ -83,13 +83,10 @@ module.exports = {
         'react/jsx-filename-extension': [1, { extensions: ['.ts', '.tsx'] }],
         'import/extensions': [
           'error',
-          'always',
+          'ignorePattern',
           {
-            ignorePackages: true,
-            pattern: {
-              tsx: 'never',
-              ts: 'never',
-            },
+            tsx: 'never',
+            ts: 'never',
           },
         ],
         'import/prefer-default-export': 'off',

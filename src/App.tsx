@@ -1,8 +1,14 @@
+import { useState } from 'react'
+import { Mint, Navbar } from './components'
+
 const App = () => {
+  const [accounts, setAccounts] = useState([])
+
   return (
-    <p className="read-the-docs">
-      Click on the Vite and React logos to learn more
-    </p>
+    <main className="max-w-8xl mx-auto text-white relative h-screen">
+      <Navbar accounts={accounts} setAccounts={setAccounts} />
+      <Mint accounts={accounts} />
+    </main>
   )
 }
 
