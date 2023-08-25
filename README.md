@@ -17,4 +17,4 @@ In addition to these dependencies, the project also uses several development dep
 - `typescript`: This package is used for type checking during development.
 - `eslint` and its plugins: These packages are used for linting the code during development.
 
-Overall, Skeleton Punk is a well-designed project that allows users to easily create and mint their own NFTs using a simple and intuitive interface. The use of well-established packages such as OpenZeppelin's ERC721 contract and Hardhat ensures that the project is built on a solid foundation, while the use of modern web development technologies such as React makes for a smooth user experience. I hope this description helps you in creating your README.md file! 😊
+Overall, Skeleton Punk is a well-designed project that allows users to easily create and mint their own NFTs using a simple and intuitive interface. The use of well-established packages such as OpenZeppelin's ERC721 contract and Hardhat ensures that the project is built on a solid foundation, while the use of modern web development technologies such as React makes for a smooth user experience.
